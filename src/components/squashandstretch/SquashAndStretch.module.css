@@ -1,0 +1,35 @@
+.link_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+
+  &:hover {
+    color: #5E7CE2;
+  }
+
+  &:hover .shaft,
+  &:focus-visible .shaft {
+    d: path('M22 12L3 12');
+  }
+
+  &:hover .tip,
+  &:focus-visible .tip {
+    d: path('M12 19C12 19 19 15 22.5 12C19 9 12 5 12 5');
+  }
+
+}
+
+.shaft,
+.tip {
+  transition: d 300ms;
+}

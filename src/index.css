@@ -1,6 +1,6 @@
 :root {
-  --text: #1A1423;
-  --bg: #FDFFFC;
+  --text: #1a1423;
+  --bg: #fdfffc;
   color: var(--text);
   background: var(--bg);
 }
@@ -23,6 +23,11 @@ select,
 label,
 button {
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 img {
