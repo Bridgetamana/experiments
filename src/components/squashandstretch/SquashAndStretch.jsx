@@ -30,7 +30,9 @@ export default function SquashAndStretch() {
               strokeLinejoin='round'
             ></path>
           </svg>
-          <a href=''>Follow on X</a>
+          <a href='https://www.linkedin.com/in/bridget-amana'>
+            Follow on Linkedin
+          </a>
         </li>
         <li className={styles.link}>
           <svg
@@ -58,7 +60,7 @@ export default function SquashAndStretch() {
               strokeLinejoin='round'
             ></path>
           </svg>
-          <a href=''>Follow on X</a>
+          <a href='https://x.com/bridget_amana'>Follow on X</a>
         </li>
         <li className={styles.link}>
           <svg
@@ -86,7 +88,7 @@ export default function SquashAndStretch() {
               strokeLinejoin='round'
             ></path>
           </svg>
-          <a href=''>Follow on X</a>
+          <a href='https://github.com/Bridgetamana'>Follow on Github</a>
         </li>
       </ul>
     </section>
